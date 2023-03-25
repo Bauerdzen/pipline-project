@@ -1,16 +1,14 @@
-pipeline {  
-    agent any 
+pipeline {
+    agent any
     stages {
-	stage('build') {
+        stage('build') {
             steps {
-                echo "Welcome to Jenkins Environment"
-                sh 'echo using shell within jenkins file'
+                echo "Welcome to Jenkins Enviroment"
+                sh 'echo usnong shell within jenkins file'
                 echo 'not using shell in jenkinsfile'
             }
+
         }
 
-
     }
-  
-
- }
+}
